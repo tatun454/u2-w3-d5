@@ -1,6 +1,6 @@
 const API_URL = "https://striveschool-api.herokuapp.com/api/product/";
 const BEARER_TOKEN =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODcwYzgzNTc4Y2RkZjAwMTU1ZDY3YWQiLCJpYXQiOjE3NTIyMjE3NDksImV4cCI6MTc1MzQzMTM0OX0.B2kTPshNXUChW2jz0tjDsAGZdXw1koLLXQqOXcN2QSs"; // SOSTITUISCI CON IL TUO TOKEN REALE
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODcwYzgzNTc4Y2RkZjAwMTU1ZDY3YWQiLCJpYXQiOjE3NTIyMjE3NDksImV4cCI6MTc1MzQzMTM0OX0.B2kTPshNXUChW2jz0tjDsAGZdXw1koLLXQqOXcN2QSs";
 
 function showAlert(message, type = "danger") {
   const alertContainer = document.getElementById("alertContainer");
